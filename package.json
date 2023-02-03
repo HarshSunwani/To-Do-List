@@ -1,0 +1,29 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshSunwani/To-Do-List.git"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshSunwani/To-Do-List/issues"
+  },
+  "homepage": "https://github.com/HarshSunwani/To-Do-List#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv-safe": "^8.2.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
